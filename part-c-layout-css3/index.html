@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 1 · Part C - Layout &amp; CSS3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--
+    ============================================
+    YOUR TASK
+    ============================================
+    The HTML for this part is already written for you - your job is 100%
+    in style.css this time. Target image: ../assets/images/target-part-c.png
+
+    What changed from Part B:
+      1. <main> and <aside> now sit SIDE BY SIDE instead of stacked.
+         Use Flexbox (display: flex on their parent, .page-row) to do this.
+      2. Inside <main>, there are 3 project cards. Arrange them in a ROW
+         using Flexbox (or try CSS Grid if you want the extra practice).
+      3. Give each card a border-radius and a box-shadow.
+      4. Give each card a hover effect using transition - when the mouse is
+         over a card, it should lift up slightly and its shadow should grow.
+
+    Follow the TODO comments in style.css - they walk you through it in order.
+  -->
+
+  <header class="site-header">
+    <div class="brand">Speedy</div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="page-row">
+    <main class="site-main">
+      <h1>Hi, I&rsquo;m Speedy &mdash; I build clean, usable interfaces.</h1>
+      <p>I&rsquo;m a frontend developer who enjoys turning rough ideas into simple, working
+      websites. Here are a few things I&rsquo;ve recently built.</p>
+
+      <div class="card-row">
+        <div class="card">
+          <h3>Weather Now</h3>
+          <p>A simple weather lookup app built with the OpenWeather API.</p>
+        </div>
+        <div class="card">
+          <h3>Task Board</h3>
+          <p>A drag-and-drop to-do list for organizing daily tasks.</p>
+        </div>
+        <div class="card">
+          <h3>Recipe Finder</h3>
+          <p>Search thousands of recipes by ingredient.</p>
+        </div>
+      </div>
+    </main>
+
+    <aside class="site-aside">
+      <h2>Quick Facts</h2>
+      <ul>
+        <li>Based in Bengaluru, India</li>
+        <li>2 years of experience</li>
+        <li>Currently learning React</li>
+        <li>Available for freelance work</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Speedy. Built with HTML &amp; CSS.</p>
+  </footer>
+
+</body>
+</html>

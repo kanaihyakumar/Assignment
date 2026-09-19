@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TODO: add a <meta name="description" ...> and a <meta name="keywords" ...> tag here too -->
+  <title>Assignment 1 · Part A - Non-Semantic Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--
+    ================================================================
+    YOUR TASK
+    ================================================================
+    Open ../assets/images/target-part-a-b.png - that is the page you need
+    to build. This is a content-rich page, so take it section by section.
+
+    RULE FOR THIS PART: use ONLY <div> and <span> for structure/grouping.
+    Do NOT use header/main/aside/footer/nav/section/article yet - that's
+    Part B. You CAN and SHOULD use normal content tags: h1/h2, p, ul, ol,
+    dl, table, img, a, strong, em, etc. - those aren't structural
+    "landmark" tags, so they're fine here.
+
+    Build these sections, top to bottom:
+
+    1. HEADER BAR (a div)
+       - Site name "Speedy", centered
+       - 3 nav links underneath: Home, Projects, Contact
+
+    2. MAIN CONTENT (a div)
+       a) Profile row: an <img> of the avatar + a heading + a paragraph
+          - The heading should read: Hi, I'm Speedy - I build clean,
+            usable interfaces.
+          - Wrap the word "Speedy" in a <span> and give it a highlight
+            color in CSS (this is the classic div-vs-span use case:
+            span is for styling a small piece of text INSIDE a block).
+          - Use <strong> around "frontend developer" and <em> around
+            part of the sentence, same as the image.
+          - For the image: use the "srcset" attribute so the browser can
+            pick between a small and large version of the same picture.
+            Files are provided: avatar-400.png (400px) and avatar-800.png
+            (800px), both in ../assets/images/. Don't forget a meaningful
+            "alt" attribute - that's required for accessibility.
+       b) "What I Do" - an UNORDERED list (<ul>) of 3 items
+       c) "My Process" - an ORDERED list (<ol>) of 3 steps
+       d) "Quick Glossary" - a DEFINITION list (<dl>/<dt>/<dd>) with 2 terms
+       e) "Experience" - a <table> with a <thead> (Year / Role / Focus),
+          a <tbody> with 2 rows, and a <tfoot> with ONE cell that spans
+          all 3 columns (look up the "colspan" attribute for this)
+
+    3. ASIDE BOX (a div, different background color)
+       - "Quick Facts" heading + a bullet list of 4 facts
+       - A link "View Resume ↗" that opens in a NEW TAB
+         (hint: look up the "target" attribute on <a>)
+
+    4. FOOTER BAR (a div)
+       - Copyright line
+
+    ALSO ADD (these won't be visible in the browser, but check your code):
+      - A custom data-* attribute somewhere, e.g. data-role="developer"
+        on your main div. Data attributes are how you attach your own
+        extra information to an element.
+      - At least one use of the "id" attribute (ids should be unique -
+        used once per page) alongside your "class" attributes (classes
+        can repeat on many elements). Be ready to explain the difference.
+  -->
+
+</body>
+</html>

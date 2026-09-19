@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 1 · Part D - Forms</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--
+    ================================================================
+    YOUR TASK
+    ================================================================
+    Target image: ../assets/images/target-part-d-forms.png
+
+    Reuse your header/footer from Part B (semantic tags), then build a
+    <form> with THREE <fieldset> groups, exactly like the image:
+
+    ── Fieldset 1: "Your Details" ──────────────────────────────
+      - Full Name   -> <input type="text">, required
+      - Email       -> <input type="email">, required
+      - Password    -> <input type="password">, required, minlength="8"
+      - Phone       -> <input type="tel">, with a "pattern" attribute
+                      that only allows 10 digits (look up the regex
+                      pattern="[0-9]{10}")
+      - Date of Birth -> <input type="date">
+
+    ── Fieldset 2: "Preferences" ───────────────────────────────
+      - Preferred contact method -> two <input type="radio">, same
+        "name" attribute on both so only one can be picked
+      - Subscribe to newsletter -> <input type="checkbox">
+      - Favorite Color -> <input type="color">
+      - Budget -> <input type="range">, with min/max/value
+      - Attach Resume -> <input type="file">
+
+    ── Fieldset 3: "Message" ───────────────────────────────────
+      - Message -> <textarea>, with a PLACEHOLDER (grey hint text that
+        disappears when you type - it is NOT a real value)
+      - Username -> <input type="text">, with a VALUE already filled in,
+        and the "readonly" attribute (visible, selectable, but the
+        person can't edit it)
+      - Referral Code -> <input type="text">, with a value, and the
+        "disabled" attribute (greyed out, NOT submitted with the form,
+        can't even be clicked into)
+
+    Finish with a submit <button>.
+
+    ── Every input needs a <label> ─────────────────────────────
+    Use the for="..." / id="..." pairing to connect each <label> to its
+    <input> (this is what makes clicking the label focus the input, and
+    it's required for screen reader users to know what a field is for).
+    For the radio/checkbox row, you can also just WRAP the input inside
+    the <label> tag directly instead - both approaches are valid, try
+    the wrapping style there for practice.
+
+    ── The <form> tag itself ───────────────────────────────────
+    Give your <form> an action="#" and method="POST".
+
+
+    ────────────────────────────────────────────────────────────
+    WRITTEN TASKS - answer as comments right here in this file
+    ────────────────────────────────────────────────────────────
+
+    1) What's the difference between the GET and POST methods on a form?
+       When would you use each one? (Hint: think about a search bar vs
+       a login form.)
+
+    2) What does the "enctype" attribute on a <form> do, and when would
+       you specifically need to set it to "multipart/form-data"? (Hint:
+       look at your file upload field.)
+
+    3) What's the difference between "placeholder" and "value" on an
+       <input>? Point to one example of each in your own form above.
+
+    4) What's the difference between "disabled" and "readonly"? Point to
+       your own examples above and describe what a user CAN and CANNOT
+       do with each one.
+  -->
+
+</body>
+</html>

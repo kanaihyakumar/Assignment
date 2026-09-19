@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* TODO: page background color */
+}
+
+/* TODO: style header (copy from Part B) */
+
+
+/* TODO: style footer (copy from Part B) */
+
+
+/* TODO: style the form wrapper - max-width, margin auto, background,
+   padding, border-radius */
+
+
+/* TODO: style fieldset - border, border-radius, padding, margin-bottom */
+
+
+/* TODO: style legend - font-weight, color */
+
+
+/* TODO: style label - display: block, font-size, margin-bottom
+   (so it sits on its own line above each input) */
+
+
+/* TODO: style text/email/password/tel/date inputs and textarea -
+   width: 100%, padding, border, border-radius */
+
+
+/* TODO: give input[readonly] and input[disabled] their own slightly
+   different background colors so they're visually distinct */
+
+
+/* TODO: style the submit button - background-color, color, padding,
+   border-radius, border: none */
