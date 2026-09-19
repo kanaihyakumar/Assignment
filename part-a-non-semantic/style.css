@@ -1,0 +1,42 @@
+/* A small reset to start from a clean slate.
+   box-sizing: border-box means padding and border are counted
+   INSIDE an element's width/height, instead of adding on top of it.
+   (This is a very common interview question - try explaining it out loud.) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* TODO: give the page itself a background color */
+}
+
+/* TODO: style your header div (background, text color, padding, text-align) */
+
+
+/* TODO: style your nav links (text-decoration, color, spacing) */
+
+
+/* TODO: style your main content div (max-width, margin auto to center,
+   padding, background-color, border-radius) */
+
+
+/* TODO: style the .highlight span from your heading (just a text color) */
+
+
+/* TODO: style your lists (ul, ol, dl) - padding-left, spacing between items */
+
+
+/* TODO: style your table
+   Things to look up: border-collapse, th background/text color,
+   td padding, border-bottom between rows */
+
+
+/* TODO: style your "Quick Facts" aside div (background-color different
+   from main, padding, list-style: none on its <ul>) */
+
+
+/* TODO: style your footer div (background-color, text-align, padding) */
