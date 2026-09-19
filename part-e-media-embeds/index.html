@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 1 · Part E - Media &amp; Embeds</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Part E - Media &amp; Embeds</h1>
+  <p>There's no target image for this part - it's more about getting each
+  element working correctly than matching an exact look. Work through the
+  4 tasks below, each in its own section.</p>
+
+  <!--
+    ================================================================
+    TASK 1 - <audio>
+    ================================================================
+    Drop any short mp3 file of your own into this folder (a voice memo,
+    a clip of a song, anything) and call it audio-clip.mp3.
+
+    TODO: add an <audio> tag below with:
+      - controls  (so play/pause buttons show up)
+      - a <source> child pointing at your mp3
+      - some fallback text after the <source>, e.g.
+        "Your browser does not support the audio element."
+  -->
+  <section>
+    <h2>Audio</h2>
+    <!-- TODO: your <audio> tag here -->
+  </section>
+
+
+  <!--
+    ================================================================
+    TASK 2 - <video>
+    ================================================================
+    Drop any short mp4 file of your own into this folder (a screen
+    recording, a clip on your phone, anything) and call it video-clip.mp4.
+
+    TODO: add a <video> tag below with:
+      - controls
+      - width="400" (or similar, so it doesn't take over the page)
+      - a <source> child pointing at your mp4
+      - fallback text, same idea as the audio task
+  -->
+  <section>
+    <h2>Video</h2>
+    <!-- TODO: your <video> tag here -->
+  </section>
+
+
+  <!--
+    ================================================================
+    TASK 3 - <iframe>
+    ================================================================
+    Pick any YouTube video, click Share -> Embed, and copy the <iframe>
+    code YouTube gives you. Paste it below. This is the standard,
+    real-world way iframes get used.
+
+    TODO: your embedded <iframe> here
+  -->
+  <section>
+    <h2>Embedded Video (iframe)</h2>
+    <!-- TODO: your <iframe> here -->
+  </section>
+
+
+  <!--
+    ================================================================
+    TASK 4 - Canvas vs SVG
+    ================================================================
+    Draw the SAME simple shape TWO different ways: a filled circle with
+    the letter "S" in the middle (like the Speedy avatar from Part A) -
+    once using <canvas> + JavaScript, once using inline <svg>.
+
+    CANVAS (drawn with JavaScript, in script.js):
+      TODO: add a <canvas id="myCanvas" width="150" height="150"></canvas>
+      below, then open script.js and use the Canvas API
+      (getContext("2d"), fillStyle, beginPath/arc/fill, fillText) to draw
+      a teal circle with a white "S" in the middle.
+
+    SVG (drawn directly in HTML, no JavaScript needed):
+      TODO: add an inline <svg> below with a <circle> (teal fill) and a
+      <text> element (white "S", centered) inside it.
+
+    Once both are done, write a comment here with ONE sentence on the
+    biggest practical difference between the two approaches (hint: think
+    about what happens if you resize the page, and how you'd animate or
+    interact with each one).
+  -->
+  <section>
+    <h2>Canvas vs SVG</h2>
+
+    <div class="shape-row">
+      <div>
+        <h3>Canvas</h3>
+        <!-- TODO: your <canvas> here -->
+      </div>
+      <div>
+        <h3>SVG</h3>
+        <!-- TODO: your <svg> here -->
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F4F6F9;
+  color: #1C2430;
+}
+
+/* ---------- Header (already given as an example) ---------- */
+.site-header {
+  background-color: #0F1F3D;
+  color: #ffffff;
+  padding: 22px 48px;
+  display: flex;               /* <- this is Flexbox in action */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 28px;
+}
+
+
+/* ---------- STEP 1: Put main + aside side by side ----------
+   Target: .page-row is the parent of <main> and <aside>.
+   TODO:
+     - display: flex;
+     - give it a max-width and center it with margin: 0 auto;
+     - add some gap between main and aside (the "gap" property)
+*/
+
+
+/* ---------- STEP 2: Style the main content box ----------
+   TODO:
+     - background-color, padding, border-radius
+     - decide how much space it takes vs aside
+       (hint: the "flex" shorthand property, e.g. flex: 1 1 68%;)
+*/
+
+
+/* ---------- STEP 3: Arrange the 3 cards in a row ----------
+   Target: .card-row is the parent of the 3 .card divs.
+   TODO:
+     - display: flex;  (or try display: grid; grid-template-columns: repeat(3, 1fr);)
+     - add a gap between cards
+     - add margin-top so it isn't stuck to the paragraph above it
+*/
+
+
+/* ---------- STEP 4: Style each card + add the hover effect ----------
+   Target: .card
+   TODO:
+     - background-color, padding, border-radius
+     - flex: 1;  (so all 3 cards share the row equally)
+     - transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+   Then add a SEPARATE rule for .card:hover that:
+     - moves it up slightly, e.g. transform: translateY(-4px);
+     - gives it a bigger box-shadow than normal
+   This is what makes the card "lift" when you point at it.
+*/
+
+
+/* ---------- STEP 5: Style the aside sidebar ----------
+   TODO: background-color, padding, border-radius, list-style on the <ul>
+*/
+
+
+/* ---------- Footer (already given as an example) ---------- */
+.site-footer {
+  background-color: #0F1F3D;
+  color: #A9B4C4;
+  text-align: center;
+  padding: 22px;
+}
