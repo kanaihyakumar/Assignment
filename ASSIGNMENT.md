@@ -15,7 +15,7 @@ Then add the below extensions, this help on improving the productivity:
 [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 [CallWeb](https://marketplace.visualstudio.com/items?itemName=KanaihyaKumar.call-web)
 [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-[DriftGuard](https://marketplace.visualstudio.com/items?itemName=KanaihyaKumar.drift-guard)
+[GitCrew](https://marketplace.visualstudio.com/items?itemName=KanaihyaKumar.gitcrew)
 [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
